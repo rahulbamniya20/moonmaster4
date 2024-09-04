@@ -85,6 +85,7 @@ function App() {
       />
       <Hero />
       <TopCollaborations />
+      <KOL />
       <OurNumbers />
       <div ref={aboutRef}>
         <AboutUs />
@@ -92,11 +93,11 @@ function App() {
       <div ref={servicesRef}>
         <WeHelp />
       </div>
-      <KOL />
-      <CollaborationSection />
+
       
       <div ref={contactRef}>
         <WhyChooseMoonMaster />
+      <CollaborationSection />
         <Footer />
       </div>
     </div>

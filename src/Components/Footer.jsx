@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
+// import { Facebook, Linkedin, Instagram, Twitter } from 'lucide-react';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
@@ -174,7 +174,20 @@ const Footer = () => {
               Building the strongest communities for the most powerful crypto
               pumps!
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="mb-12">
+              <h4 className="text-lg font-semibold mb-4">Stay Updated</h4>
+              <div className="flex flex-col sm:flex-row max-w-md mx-auto sm:mx-0">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  className="bg-white bg-opacity-10 px-4 py-2 rounded-t-lg sm:rounded-l-lg sm:rounded-t-none focus:outline-none focus:ring-2 focus:ring-purple-400 w-full sm:w-2/3"
+                />
+                <button className=" text-xs bg-gradient-to-r from-purple-600 to-[#33069d] hover:from-[#33069d] hover:to-purple-600 text-white px-6 py-2 rounded-b-lg sm:rounded-r-lg sm:rounded-b-none transition-all duration-300 mt-2 sm:mt-0">
+                  Connect
+                </button>
+              </div>
+            </div> */}
+            {/* <div className="flex space-x-4">
               <a href="#" className="hover-glow">
                 <Facebook className="w-5 h-5" />
               </a>
@@ -187,7 +200,7 @@ const Footer = () => {
               <a href="#" className="hover-glow">
                 <Linkedin className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Services */}

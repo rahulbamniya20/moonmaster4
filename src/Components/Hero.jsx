@@ -36,9 +36,9 @@ const Hero = () => {
                 sequence={[
                   "Meme Coin",
                   2000,
-                  "DeFi Project",
+                  "Meme Coin",
                   2000,
-                  "NFT Collection",
+                  "Meme Coin",
                   2000,
                 ]}
                 wrapper="span"
@@ -55,7 +55,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg mb-8 relative z-40 flex flex-wrap items-center"
           >
-            <span>We are a Web3-native KOL marketing team, led by KOLs from around the globe.</span>
+            <span className='font-bold'>We are a Web3-native KOL marketing team, led by KOLs from around the globe.</span>
             <span className="inline-block w-2 mr-1">{" "}  </span>
           </motion.p>
 
